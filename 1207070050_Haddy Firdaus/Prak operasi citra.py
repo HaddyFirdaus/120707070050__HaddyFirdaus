@@ -2,12 +2,12 @@ import matplotlib.pyplot as plt#mengimpor library matplotlib
 import cv2#mengimport library open cv2
 #%matplotlib inline
 
-from skimage import data# Mengimpor modul data dari pustaka Scikit-image. Modul data menyediakan beberapa dataset gambar bawaan yang dapat digunakan untuk keperluan pengujian atau latihan.
-from skimage.io import imread#Mengimpor modul imread dari pustaka Scikit-image. Modul imread digunakan untuk membaca file gambar dari sistem file atau URL.
-from skimage.color import rgb2gray#Mengimpor modul rgb2gray dari pustaka Scikit-image. Modul rgb2gray digunakan untuk mengkonversi gambar berwarna menjadi grayscale.
-from skimage.util import invert#Mengimpor modul invert dari pustaka Scikit-image. Modul invert digunakan untuk membalikkan nilai piksel pada gambar.
+from skimage import data# Mengimpor modul data dari pustaka Scikit-image.
+from skimage.io import imread#Mengimpor modul imread dari pustaka Scikit-image. 
+from skimage.color import rgb2gray#Mengimpor modul rgb2gray dari pustaka Scikit-image. 
+from skimage.util import invert#Mengimpor modul invert dari pustaka Scikit-image.
 
-import numpy as np#Mengimpor pustaka NumPy sebagai alias np. NumPy adalah pustaka Python untuk komputasi ilmiah, terutama operasi pada array multidimensi. 
+import numpy as np#Mengimpor pustaka NumPy  
 
 #percobaan 1 crop image
 
